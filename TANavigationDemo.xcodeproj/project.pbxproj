@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF407E0D1AA59AA70068CAEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF407E0C1AA59AA70068CAEA /* main.m */; };
+		BF407E101AA59AA70068CAEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF407E0F1AA59AA70068CAEA /* AppDelegate.m */; };
+		BF407E121AA59AA70068CAEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF407E111AA59AA70068CAEA /* Images.xcassets */; };
+		BF407E151AA59AA70068CAEA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF407E131AA59AA70068CAEA /* LaunchScreen.xib */; };
+		BF407E211AA59AA70068CAEA /* TANavigationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF407E201AA59AA70068CAEA /* TANavigationDemoTests.m */; };
+		BF407E371AA59ACE0068CAEA /* TAAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = BF407E2C1AA59ACE0068CAEA /* TAAnimator.m */; };
+		BF407E381AA59ACE0068CAEA /* TANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF407E2E1AA59ACE0068CAEA /* TANavigationController.m */; };
+		BF407E391AA59ACE0068CAEA /* TANavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF407E301AA59ACE0068CAEA /* TANavigationControllerDelegate.m */; };
+		BF407E3A1AA59ACE0068CAEA /* TAPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF407E321AA59ACE0068CAEA /* TAPanGestureRecognizer.m */; };
+		BF407E3C1AA59ACE0068CAEA /* UIViewController+NavigationbarAlpha.m in Sources */ = {isa = PBXBuildFile; fileRef = BF407E361AA59ACE0068CAEA /* UIViewController+NavigationbarAlpha.m */; };
+		BF407E3F1AA59BE10068CAEA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF407E3E1AA59BE10068CAEA /* FirstViewController.m */; };
+		BF407E421AA59D9C0068CAEA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF407E411AA59D9C0068CAEA /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF407E1B1AA59AA70068CAEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF407DFF1AA59AA60068CAEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF407E061AA59AA70068CAEA;
+			remoteInfo = TANavigationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF407E071AA59AA70068CAEA /* TANavigationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TANavigationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF407E0B1AA59AA70068CAEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF407E0C1AA59AA70068CAEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF407E0E1AA59AA70068CAEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF407E0F1AA59AA70068CAEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF407E111AA59AA70068CAEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF407E141AA59AA70068CAEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BF407E1A1AA59AA70068CAEA /* TANavigationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TANavigationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF407E1F1AA59AA70068CAEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF407E201AA59AA70068CAEA /* TANavigationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TANavigationDemoTests.m; sourceTree = "<group>"; };
+		BF407E2B1AA59ACE0068CAEA /* TAAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimator.h; sourceTree = "<group>"; };
+		BF407E2C1AA59ACE0068CAEA /* TAAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimator.m; sourceTree = "<group>"; };
+		BF407E2D1AA59ACE0068CAEA /* TANavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TANavigationController.h; sourceTree = "<group>"; };
+		BF407E2E1AA59ACE0068CAEA /* TANavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TANavigationController.m; sourceTree = "<group>"; };
+		BF407E2F1AA59ACE0068CAEA /* TANavigationControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TANavigationControllerDelegate.h; sourceTree = "<group>"; };
+		BF407E301AA59ACE0068CAEA /* TANavigationControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TANavigationControllerDelegate.m; sourceTree = "<group>"; };
+		BF407E311AA59ACE0068CAEA /* TAPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPanGestureRecognizer.h; sourceTree = "<group>"; };
+		BF407E321AA59ACE0068CAEA /* TAPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPanGestureRecognizer.m; sourceTree = "<group>"; };
+		BF407E351AA59ACE0068CAEA /* UIViewController+NavigationbarAlpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationbarAlpha.h"; sourceTree = "<group>"; };
+		BF407E361AA59ACE0068CAEA /* UIViewController+NavigationbarAlpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationbarAlpha.m"; sourceTree = "<group>"; };
+		BF407E3D1AA59BE10068CAEA /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		BF407E3E1AA59BE10068CAEA /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		BF407E401AA59D9C0068CAEA /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		BF407E411AA59D9C0068CAEA /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF407E041AA59AA70068CAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF407E171AA59AA70068CAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF407DFE1AA59AA60068CAEA = {
+			isa = PBXGroup;
+			children = (
+				BF407E091AA59AA70068CAEA /* TANavigationDemo */,
+				BF407E1D1AA59AA70068CAEA /* TANavigationDemoTests */,
+				BF407E081AA59AA70068CAEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF407E081AA59AA70068CAEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF407E071AA59AA70068CAEA /* TANavigationDemo.app */,
+				BF407E1A1AA59AA70068CAEA /* TANavigationDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF407E091AA59AA70068CAEA /* TANavigationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BF407E2A1AA59ACE0068CAEA /* TANavigationController */,
+				BF407E0E1AA59AA70068CAEA /* AppDelegate.h */,
+				BF407E0F1AA59AA70068CAEA /* AppDelegate.m */,
+				BF407E111AA59AA70068CAEA /* Images.xcassets */,
+				BF407E131AA59AA70068CAEA /* LaunchScreen.xib */,
+				BF407E0A1AA59AA70068CAEA /* Supporting Files */,
+				BF407E3D1AA59BE10068CAEA /* FirstViewController.h */,
+				BF407E3E1AA59BE10068CAEA /* FirstViewController.m */,
+				BF407E401AA59D9C0068CAEA /* SecondViewController.h */,
+				BF407E411AA59D9C0068CAEA /* SecondViewController.m */,
+			);
+			path = TANavigationDemo;
+			sourceTree = "<group>";
+		};
+		BF407E0A1AA59AA70068CAEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF407E0B1AA59AA70068CAEA /* Info.plist */,
+				BF407E0C1AA59AA70068CAEA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF407E1D1AA59AA70068CAEA /* TANavigationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF407E201AA59AA70068CAEA /* TANavigationDemoTests.m */,
+				BF407E1E1AA59AA70068CAEA /* Supporting Files */,
+			);
+			path = TANavigationDemoTests;
+			sourceTree = "<group>";
+		};
+		BF407E1E1AA59AA70068CAEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF407E1F1AA59AA70068CAEA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF407E2A1AA59ACE0068CAEA /* TANavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				BF407E2B1AA59ACE0068CAEA /* TAAnimator.h */,
+				BF407E2C1AA59ACE0068CAEA /* TAAnimator.m */,
+				BF407E2D1AA59ACE0068CAEA /* TANavigationController.h */,
+				BF407E2E1AA59ACE0068CAEA /* TANavigationController.m */,
+				BF407E2F1AA59ACE0068CAEA /* TANavigationControllerDelegate.h */,
+				BF407E301AA59ACE0068CAEA /* TANavigationControllerDelegate.m */,
+				BF407E311AA59ACE0068CAEA /* TAPanGestureRecognizer.h */,
+				BF407E321AA59ACE0068CAEA /* TAPanGestureRecognizer.m */,
+				BF407E351AA59ACE0068CAEA /* UIViewController+NavigationbarAlpha.h */,
+				BF407E361AA59ACE0068CAEA /* UIViewController+NavigationbarAlpha.m */,
+			);
+			path = TANavigationController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF407E061AA59AA70068CAEA /* TANavigationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF407E241AA59AA70068CAEA /* Build configuration list for PBXNativeTarget "TANavigationDemo" */;
+			buildPhases = (
+				BF407E031AA59AA70068CAEA /* Sources */,
+				BF407E041AA59AA70068CAEA /* Frameworks */,
+				BF407E051AA59AA70068CAEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TANavigationDemo;
+			productName = TANavigationDemo;
+			productReference = BF407E071AA59AA70068CAEA /* TANavigationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF407E191AA59AA70068CAEA /* TANavigationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF407E271AA59AA70068CAEA /* Build configuration list for PBXNativeTarget "TANavigationDemoTests" */;
+			buildPhases = (
+				BF407E161AA59AA70068CAEA /* Sources */,
+				BF407E171AA59AA70068CAEA /* Frameworks */,
+				BF407E181AA59AA70068CAEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF407E1C1AA59AA70068CAEA /* PBXTargetDependency */,
+			);
+			name = TANavigationDemoTests;
+			productName = TANavigationDemoTests;
+			productReference = BF407E1A1AA59AA70068CAEA /* TANavigationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF407DFF1AA59AA60068CAEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "___LOTTO___";
+				TargetAttributes = {
+					BF407E061AA59AA70068CAEA = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					BF407E191AA59AA70068CAEA = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = BF407E061AA59AA70068CAEA;
+					};
+				};
+			};
+			buildConfigurationList = BF407E021AA59AA60068CAEA /* Build configuration list for PBXProject "TANavigationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF407DFE1AA59AA60068CAEA;
+			productRefGroup = BF407E081AA59AA70068CAEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF407E061AA59AA70068CAEA /* TANavigationDemo */,
+				BF407E191AA59AA70068CAEA /* TANavigationDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF407E051AA59AA70068CAEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF407E151AA59AA70068CAEA /* LaunchScreen.xib in Resources */,
+				BF407E121AA59AA70068CAEA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF407E181AA59AA70068CAEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF407E031AA59AA70068CAEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF407E421AA59D9C0068CAEA /* SecondViewController.m in Sources */,
+				BF407E3A1AA59ACE0068CAEA /* TAPanGestureRecognizer.m in Sources */,
+				BF407E381AA59ACE0068CAEA /* TANavigationController.m in Sources */,
+				BF407E391AA59ACE0068CAEA /* TANavigationControllerDelegate.m in Sources */,
+				BF407E3C1AA59ACE0068CAEA /* UIViewController+NavigationbarAlpha.m in Sources */,
+				BF407E371AA59ACE0068CAEA /* TAAnimator.m in Sources */,
+				BF407E101AA59AA70068CAEA /* AppDelegate.m in Sources */,
+				BF407E0D1AA59AA70068CAEA /* main.m in Sources */,
+				BF407E3F1AA59BE10068CAEA /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF407E161AA59AA70068CAEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF407E211AA59AA70068CAEA /* TANavigationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF407E1C1AA59AA70068CAEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF407E061AA59AA70068CAEA /* TANavigationDemo */;
+			targetProxy = BF407E1B1AA59AA70068CAEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF407E131AA59AA70068CAEA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF407E141AA59AA70068CAEA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF407E221AA59AA70068CAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF407E231AA59AA70068CAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF407E251AA59AA70068CAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TANavigationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF407E261AA59AA70068CAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TANavigationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF407E281AA59AA70068CAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TANavigationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TANavigationDemo.app/TANavigationDemo";
+			};
+			name = Debug;
+		};
+		BF407E291AA59AA70068CAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TANavigationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TANavigationDemo.app/TANavigationDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF407E021AA59AA60068CAEA /* Build configuration list for PBXProject "TANavigationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF407E221AA59AA70068CAEA /* Debug */,
+				BF407E231AA59AA70068CAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF407E241AA59AA70068CAEA /* Build configuration list for PBXNativeTarget "TANavigationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF407E251AA59AA70068CAEA /* Debug */,
+				BF407E261AA59AA70068CAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF407E271AA59AA70068CAEA /* Build configuration list for PBXNativeTarget "TANavigationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF407E281AA59AA70068CAEA /* Debug */,
+				BF407E291AA59AA70068CAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF407DFF1AA59AA60068CAEA /* Project object */;
+}
